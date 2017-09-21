@@ -12,6 +12,11 @@
 		3C5B1BDD1F6F9B13002D8577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5B1BDB1F6F9B13002D8577 /* Main.storyboard */; };
 		3C5B1BDF1F6F9B13002D8577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5B1BDE1F6F9B13002D8577 /* Assets.xcassets */; };
 		3C5B1BE21F6F9B13002D8577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5B1BE01F6F9B13002D8577 /* LaunchScreen.storyboard */; };
+		3C5B1BEA1F6F9B8F002D8577 /* ViewPoint.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C5B1BE91F6F9B8F002D8577 /* ViewPoint.plist */; };
+		3C5B1BED1F6F9BE2002D8577 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5B1BEC1F6F9BE2002D8577 /* MapKit.framework */; };
+		F52621CA1F73570F0068473C /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F52621C71F73570F0068473C /* a.jpg */; };
+		F52621CB1F73570F0068473C /* b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F52621C81F73570F0068473C /* b.jpg */; };
+		F52621CC1F73570F0068473C /* c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F52621C91F73570F0068473C /* c.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		3C5B1BDE1F6F9B13002D8577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C5B1BE11F6F9B13002D8577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C5B1BE31F6F9B13002D8577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C5B1BE91F6F9B8F002D8577 /* ViewPoint.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ViewPoint.plist; sourceTree = "<group>"; };
+		3C5B1BEC1F6F9BE2002D8577 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F52621C71F73570F0068473C /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
+		F52621C81F73570F0068473C /* b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b.jpg; sourceTree = "<group>"; };
+		F52621C91F73570F0068473C /* c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C5B1BED1F6F9BE2002D8577 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,7 @@
 			children = (
 				3C5B1BD61F6F9B13002D8577 /* 02_Pin_Plist */,
 				3C5B1BD51F6F9B13002D8577 /* Products */,
+				3C5B1BEB1F6F9BE2002D8577 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +66,10 @@
 		3C5B1BD61F6F9B13002D8577 /* 02_Pin_Plist */ = {
 			isa = PBXGroup;
 			children = (
+				F52621C71F73570F0068473C /* a.jpg */,
+				F52621C81F73570F0068473C /* b.jpg */,
+				F52621C91F73570F0068473C /* c.jpg */,
+				3C5B1BE91F6F9B8F002D8577 /* ViewPoint.plist */,
 				3C5B1BD71F6F9B13002D8577 /* AppDelegate.swift */,
 				3C5B1BD91F6F9B13002D8577 /* ViewController.swift */,
 				3C5B1BDB1F6F9B13002D8577 /* Main.storyboard */,
@@ -62,6 +78,14 @@
 				3C5B1BE31F6F9B13002D8577 /* Info.plist */,
 			);
 			path = 02_Pin_Plist;
+			sourceTree = "<group>";
+		};
+		3C5B1BEB1F6F9BE2002D8577 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C5B1BEC1F6F9BE2002D8577 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +147,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F52621CB1F73570F0068473C /* b.jpg in Resources */,
 				3C5B1BE21F6F9B13002D8577 /* LaunchScreen.storyboard in Resources */,
+				F52621CC1F73570F0068473C /* c.jpg in Resources */,
 				3C5B1BDF1F6F9B13002D8577 /* Assets.xcassets in Resources */,
+				3C5B1BEA1F6F9B8F002D8577 /* ViewPoint.plist in Resources */,
+				F52621CA1F73570F0068473C /* a.jpg in Resources */,
 				3C5B1BDD1F6F9B13002D8577 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +327,7 @@
 				3C5B1BE81F6F9B13002D8577 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
